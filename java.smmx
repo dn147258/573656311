@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE simplemind-mindmaps>
+<simplemind-mindmaps generator="SimpleMindWin32" gen-version="1.16.0" doc-version="3">
+<mindmap>
+<meta>
+<guid guid="DF6400C883F5403293A05EC87CD771E7"/>
+<title text="java"/>
+<style key="system.compact-gray-scale"/>
+<auto-numbering style="disabled"/>
+<scrollstate zoom="110" x="135" y="-1448"/>
+<main-centraltheme id="0"/>
+</meta>
+<topics>
+<topic id="0" parent="-1" guid="QG9x1YFsj0C6OQDAn_MWbQ" x="476.00" y="80.00" layout="strict-horizontal" text="java"/>
+<topic id="1" parent="0" guid="hSM6Ylsr80SrOhRQtM7KGg" x="572.00" y="80.00" text="JDK">
+<parent-relation guid="4Uy34ytbjEuEe__ewaJw6A"/>
+</topic>
+<topic id="2" parent="1" guid="-F5A4DsGKUmO3NGi57g5Qw" x="705.50" y="-721.00" text="JDBC（java.sql）"/>
+<topic id="3" parent="2" guid="rL4RnSeOjUyhslr_MY5BYg" x="846.00" y="-734.00" text="Mybatis"/>
+<topic id="4" parent="3" x="1003.00" y="-734.00" text="代理实现Mapper调用"/>
+<topic id="5" parent="2" x="853.00" y="-708.00" text="Hibernate"/>
+<topic id="6" parent="1" guid="37D9DseY-kik9wIGWgtAFQ" x="721.50" y="-650.00" text="Collection（java.util）"/>
+<topic id="7" parent="6" guid="nSEoSJVb6EiIPUW1bokv6A" x="868.00" y="-676.00" text="Set"/>
+<topic id="8" parent="7" x="966.00" y="-676.00" text="HashSet"/>
+<topic id="9" parent="6" guid="wEuqNamkzE29iVKFHv3ICA" x="868.00" y="-650.00" text="List"/>
+<topic id="10" parent="9" x="968.00" y="-650.00" text="ArrayList"/>
+<topic id="11" parent="6" x="875.00" y="-624.00" text="Queue"/>
+<topic id="12" parent="1" guid="ZPmH778YwE2AG3PMuVdqNg" x="703.00" y="-537.00" text="Map（java.util）"/>
+<topic id="13" parent="12" guid="iHjFGZL8HEWn1ZfTzPqmhQ" x="846.00" y="-550.00" text="HashMap"/>
+<topic id="14" parent="13" x="974.00" y="-589.00" text="默认大小16"/>
+<topic id="15" parent="13" x="972.00" y="-563.00" text="2^n 次扩展"/>
+<topic id="16" parent="13" x="979.50" y="-537.00" text="哈希因子0.75"/>
+<topic id="17" parent="13" x="1043.50" y="-511.00" text="多线程扩展容易形成环形链表"/>
+<topic id="18" parent="12" x="850.00" y="-482.00" text="HashTable"/>
+<topic id="19" parent="1" guid="4s4YQYF_nEGS65zug8-0sw" x="751.00" y="-88.00" text="多线程（java.util.concurrent）"/>
+<topic id="20" parent="19" guid="9hKyJnlyDE-hGKvodo_K2A" x="927.00" y="-379.00" text="sync"/>
+<topic id="21" parent="20" guid="jgeiMstDKESt6CNXUBN3Ag" x="1024.50" y="-447.00" text="偏向锁"/>
+<topic id="22" parent="20" guid="WROZl5TAZ0Kr8uThlmWoBA" x="1033.00" y="-421.00" text="轻量级锁"/>
+<topic id="23" parent="20" x="1033.00" y="-395.00" text="重量级锁"/>
+<topic id="24" parent="20" x="1024.50" y="-369.00" text="可重入"/>
+<topic id="25" parent="20" guid="ww_Y6nc5XEiWGzo0KLFosA" x="1038.50" y="-327.00" text="wait/notified"/>
+<topic id="26" parent="25" x="1187.00" y="-340.00" text="一个同步队列"/>
+<topic id="27" parent="25" x="1187.00" y="-314.00" text="一个等待队列"/>
+<topic id="28" parent="19" guid="rKc6xF8VqE2z5T4ciP5UiQ" x="928.00" y="-169.00" text="Lock"/>
+<topic id="29" parent="28" guid="0iVquyMFf0uQ2GRCuWT7AA" x="1015.00" y="-250.00" text="CAS"/>
+<topic id="30" parent="29" x="1104.00" y="-276.00" text="自旋"/>
+<topic id="31" parent="29" guid="VW2xGiGpUESrN2M4jWD9EQ" x="1121.00" y="-250.00" text="内存锁定"/>
+<topic id="32" parent="29" x="1121.00" y="-224.00" text="总线锁定"/>
+<topic id="33" parent="28" guid="YjYJZn8doEGqudpycUYWLw" x="1015.00" y="-195.00" text="AQS"/>
+<topic id="34" parent="28" guid="Dp6H_43NyEauUfyLPchuzA" x="1026.50" y="-169.00" text="读写锁"/>
+<topic id="35" parent="28" guid="R8zD1v975EKWs2L4f_GlZA" x="1026.50" y="-143.00" text="公平锁"/>
+<topic id="36" parent="28" x="1035.00" y="-117.00" text="非公平锁"/>
+<topic id="37" parent="28" guid="lP9kzsg8dk2YUNF8p2_XMA" x="1031.50" y="-75.00" text="Condition"/>
+<topic id="38" parent="37" x="1171.00" y="-88.00" text="一个同步队列"/>
+<topic id="39" parent="37" x="1171.00" y="-62.00" text="多个等待队列"/>
+<topic id="40" parent="19" guid="mSUuRk6x8kOEb0h-OcLcuw" x="934.50" y="-1.00" text="voliate"/>
+<topic id="41" parent="40" guid="oWspJRdAM0CptIiDpVJ0rg" x="1048.00" y="-1.00" text="指令重排"/>
+<topic id="42" parent="41" guid="KBRfvbgmxkuR8CLTa4F-1w" x="1182.50" y="-27.00" text="编译器重排"/>
+<topic id="43" parent="41" guid="8CBOWTzy2k-_QKxhwEsQ9Q" x="1182.50" y="-1.00" text="处理器重排"/>
+<topic id="44" parent="41" x="1174.00" y="25.00" text="内存重排"/>
+<topic id="45" parent="19" x="938.50" y="54.00" text="线程池"/>
+<topic id="46" parent="19" guid="vblOIyVHkE22K76lcMQmGw" x="977.00" y="109.00" text="ConcurrentHashMap"/>
+<topic id="47" parent="46" guid="CcNzKBUe9U2oKUaDjfncZw" x="1127.50" y="109.00" text="Segment"/>
+<topic id="48" parent="47" x="1239.50" y="83.00" text="锁分段"/>
+<topic id="49" parent="47" x="1245.00" y="109.00" text="hashEntry"/>
+<topic id="50" parent="47" x="1239.50" y="135.00" text="再哈希"/>
+<topic id="51" parent="19" guid="2bJxPHsUukSHJhFDVqECsg" x="990.50" y="164.00" text="ConcurrentLinkedQueue"/>
+<topic id="52" parent="19" guid="l-pgMqjb_kSnq3BNJ0RR5A" x="973.00" y="190.00" text="LinkedBlockQueue"/>
+<topic id="53" parent="19" guid="8Ealq9TF00yMIVLGrqdp0A" x="956.00" y="245.00" text="LockSupports"/>
+<topic id="54" parent="53" guid="le2QCvIhwk2seGOCXVSZOA" x="1075.00" y="219.00" text="park()"/>
+<topic id="55" parent="53" guid="YrCPV3Bht0uoTOpNDw5YXw" x="1083.00" y="245.00" text="unpark()"/>
+<topic id="56" parent="53" guid="zRDGBqgTfEKnk6uoNhZ7iA" x="1116.50" y="271.00" text="可指定阻塞对象"/>
+<topic id="57" parent="1" guid="hIwtKy8shkqRqs9pKae-jA" x="744.50" y="319.00" text="基础数据类型（java.lang）"/>
+<topic id="58" parent="57" guid="ogV1G_Lnmk-v98GRRd13NA" x="916.00" y="306.00" text="Long"/>
+<topic id="59" parent="57" guid="jQ77uEuKtEy69zSDX-bUhg" x="922.50" y="332.00" text="Integer"/>
+<topic id="60" parent="59" x="1047.00" y="332.00" text="缓存-128 -127"/>
+<topic id="61" parent="1" guid="uanCrtTXD0K10d9CQRfPfw" x="724.00" y="361.00" text="远程调用（java.rmi）"/>
+<topic id="62" parent="1" guid="RW_l_BdHYkeoM62iR_yxjQ" x="692.50" y="387.00" text="IO（java.io）"/>
+<topic id="63" parent="62" x="810.00" y="387.00" text="BIO"/>
+<topic id="64" parent="1" guid="xVUPZESqP0iNehfQqGjRiw" x="688.00" y="455.00" text="NIO(java.nio)"/>
+<topic id="65" parent="64" guid="lEimvY4VZESIIr4R2v6GLw" x="801.00" y="416.00" text="AIO"/>
+<topic id="66" parent="64" guid="Z5pDs_cG6E6x9CEbaDbOng" x="828.00" y="442.00" text="ByteBuffered"/>
+<topic id="67" parent="64" guid="Z_Y-syPdgUqa8KKFrRaE-A" x="809.50" y="468.00" text="Chanel"/>
+<topic id="68" parent="64" guid="uuWwOi7RYE-HhKXrG968Bw" x="813.50" y="494.00" text="Selector"/>
+<topic id="69" parent="68" x="914.00" y="494.00" text="Epoll"/>
+<topic id="70" parent="1" guid="06gUVhtehE2AZe_2VPC5rQ" x="731.50" y="552.00" text="StringBuilder（java.util）"/>
+<topic id="71" parent="70" x="916.50" y="526.00" text="线程不安全"/>
+<topic id="72" parent="70" x="898.00" y="552.00" text="默认16"/>
+<topic id="73" parent="70" x="942.50" y="578.00" text="扩展时是原值*2 + 1"/>
+<topic id="74" parent="1" guid="oXV-AYSkDUqXqWapPFrO4w" x="728.50" y="652.00" text="反射（java.util.reflect）"/>
+<topic id="75" parent="74" guid="D1npkxIMF0GW-X_XwemkHA" x="902.00" y="639.00" text="动态代理"/>
+<topic id="76" parent="75" x="1026.50" y="613.00" text="cglib代理"/>
+<topic id="77" parent="75" x="1028.00" y="639.00" text="静态代理"/>
+<topic id="78" parent="75" x="1096.50" y="665.00" text="SoftRefrence 构造的高速缓存"/>
+<topic id="79" parent="74" x="914.50" y="694.00" text="ReflectionData"/>
+<topic id="80" parent="1" guid="dJ-wjgRm7U6KtQn1StE_Jw" x="714.00" y="810.00" text="Object（java.lang）"/>
+<topic id="81" parent="80" guid="7iDS3aOprkOWm2G93Z8KGw" x="873.00" y="797.00" text="头部结构"/>
+<topic id="82" parent="81" guid="IeKvaTHoTUauze2-Nntb-Q" x="997.50" y="771.00" text="MarkWord"/>
+<topic id="83" parent="82" x="1129.00" y="732.00" text="00轻量级锁"/>
+<topic id="84" parent="82" guid="SAZ0N9tPHUmmH8jh3J_vGQ" x="1129.00" y="758.00" text="10重量级锁"/>
+<topic id="85" parent="82" x="1121.00" y="784.00" text="11GC标记"/>
+<topic id="86" parent="82" guid="cTr9Fm94rkWUeNZjsctaww" x="1120.50" y="810.00" text="01偏向锁"/>
+<topic id="87" parent="81" guid="SC_nE80DIECNDStDvAtZ0A" x="1007.00" y="839.00" text="Class的地址"/>
+<topic id="88" parent="81" x="999.00" y="865.00" text="数组长度"/>
+<topic id="89" parent="80" x="881.50" y="894.00" text="对象监视器"/>
+<topic id="90" parent="0" guid="7kvcwdAEpEi_-aOPLSTYOg" x="380.00" y="-288.00" text="JVM"/>
+<topic id="91" parent="90" guid="cHNovNXpsUSjwPb0NYz4oA" x="291.00" y="-482.00" text="GC">
+<parent-relation guid="Mer6Z1dLykiAnXb5zaUuBw"/>
+</topic>
+<topic id="92" parent="91" guid="mpW5y8FiY0CI2hOv8e8FCA" x="184.00" y="-524.00" text="GC的对象"/>
+<topic id="93" parent="92" guid="ei_kkkcn3kqqD8WDsiaUUA" x="48.50" y="-579.00" text="可达性分析"/>
+<topic id="94" parent="93" guid="G4p8brzqokeTe5h8NYroiw" x="-103.00" y="-579.00" text="树结构根节点"/>
+<topic id="95" parent="94" guid="CrpkYWMGE0GN09ZSLJuEjA" x="-246.00" y="-618.00" text="栈中引用"/>
+<topic id="96" parent="94" guid="Vr18oFzjN0mDifKLlWbjfA" x="-263.00" y="-592.00" text="静态常量引用"/>
+<topic id="97" parent="94" guid="iLCLC3bOFU-actBtt8WFGw" x="-254.50" y="-566.00" text="常量池引用"/>
+<topic id="98" parent="94" x="-297.00" y="-540.00" text="系统类加载器加载的类"/>
+<topic id="99" parent="92" guid="pY6F9fWQ8keptddY7kYJ6g" x="48.50" y="-469.00" text="引用计数器"/>
+<topic id="100" parent="99" guid="Dipf2ETQ40en67P5aKSmTA" x="-77.50" y="-508.00" text="强引用"/>
+<topic id="101" parent="99" guid="NPAUYnjwcEeYkH1DhqWQdw" x="-77.50" y="-482.00" text="软引用"/>
+<topic id="102" parent="101" x="-261.50" y="-482.00" text="只有在即将OOM时才会回收"/>
+<topic id="103" parent="99" guid="Uu0SjEcciUmEWrN4iPw_sg" x="-77.50" y="-456.00" text="弱引用"/>
+<topic id="104" parent="103" x="-255.50" y="-456.00" text="任何一次GC都可能会回收"/>
+<topic id="105" parent="99" x="-77.50" y="-430.00" text="虚引用"/>
+<topic id="106" parent="91" guid="3PpW35g5dky3xqgSJt_bCw" x="184.00" y="-369.00" text="GC的方式"/>
+<topic id="107" parent="106" x="57.00" y="-395.00" text="标记整理"/>
+<topic id="108" parent="106" x="57.00" y="-369.00" text="标记清除"/>
+<topic id="109" parent="106" x="57.00" y="-343.00" text="复制清除"/>
+<topic id="110" parent="90" guid="UeC1DeHTlEK0lj_Se4a_cQ" x="271.00" y="-198.00" text="内存模型"/>
+<topic id="111" parent="110" guid="2MLlxEi7JUeXdgnO4yn8UA" x="153.50" y="-308.00" text="方法区"/>
+<topic id="112" parent="111" guid="09JaSZXXLUWqYREg07kreA" x="44.50" y="-308.00" text="常量池"/>
+<topic id="113" parent="112" x="-94.50" y="-308.00" text="JDK1.8放入堆中"/>
+<topic id="114" parent="110" guid="6OxSv9ZzOEyfYPkJNI2V3g" x="162.00" y="-224.00" text="堆区"/>
+<topic id="115" parent="114" guid="rM9DzfqpMEemfNe5AAUENg" x="61.50" y="-237.00" text="年轻代"/>
+<topic id="116" parent="115" guid="7jUdKwODM0mqqejgv3OipA" x="-51.00" y="-276.00" text="生存区1"/>
+<topic id="117" parent="115" x="-51.00" y="-250.00" text="生存区2"/>
+<topic id="118" parent="115" x="-57.50" y="-224.00" text="8 ： 1 ： 1"/>
+<topic id="119" parent="115" x="-107.00" y="-198.00" text="生存区始终有一个为空"/>
+<topic id="120" parent="114" guid="n50UiN5gZU2tEavmZmVnkg" x="61.50" y="-169.00" text="老年代"/>
+<topic id="121" parent="120" x="-124.00" y="-169.00" text="对象很大会直接进入老年代"/>
+<topic id="122" parent="110" guid="A-tZn-0yrkubIL_gXcEjSQ" x="157.00" y="-140.00" text="JVM栈"/>
+<topic id="123" parent="110" guid="zFNKPPG3F0GDhwet9w-0Sg" x="136.50" y="-114.00" text="本地方法栈"/>
+<topic id="124" parent="110" x="136.50" y="-88.00" text="程序计数器"/>
+<topic id="125" parent="90" guid="HNldtDque0GE8cmvQ2lJ8Q" x="279.50" y="-4.00" text="类加载"/>
+<topic id="126" parent="125" x="162.00" y="-56.00" text="双亲委派"/>
+<topic id="127" parent="125" x="145.00" y="-30.00" text="系统类加载器"/>
+<topic id="128" parent="125" x="145.00" y="-4.00" text="扩展类加载器"/>
+<topic id="129" parent="125" guid="e7rWGcC22ES6LBA8XOZSGA" x="145.00" y="22.00" text="应用类加载器"/>
+<topic id="130" parent="125" guid="ulaHTR-H1kWrG5i3SytQhQ" x="145.00" y="48.00" text="自定义类加载"/>
+<topic id="131" parent="130" x="2.00" y="48.00" text="网络传输"/>
+<topic id="132" parent="0" guid="eLh1B8Nvy0a6q0Vl3bthRQ" x="372.50" y="335.00" text="spring"/>
+<topic id="133" parent="132" guid="OHYWQfgbUUiIH2Sirz3NFQ" x="254.50" y="112.00" text="spring boot"/>
+<topic id="134" parent="133" guid="f1lZa5U1P0ia_N0wVb7pJw" x="122.00" y="112.00" text="spring cloud"/>
+<topic id="135" parent="134" guid="oixnVWF1skqLWSJmE0VNOg" x="3.00" y="86.00" text="eureka"/>
+<topic id="136" parent="134" guid="VuThc96_vUOdh4jTqM8Ffw" x="9.00" y="112.00" text="feign"/>
+<topic id="137" parent="134" guid="CINsAMImlUC3YwoqkoKCCw" x="7.00" y="138.00" text="hytrix"/>
+<topic id="138" parent="132" guid="jXXFkaf9GUSI6Fhg6VUByg" x="234.50" y="377.00" text="spring framework"/>
+<topic id="139" parent="138" guid="0Jz8R1DtvEaFryvamkCReg" x="86.50" y="170.00" text="spring mvc"/>
+<topic id="140" parent="139" x="-22.00" y="170.00" text="View"/>
+<topic id="141" parent="138" guid="yn9Ac_-AQkKlO2fvkJvf1A" x="107.00" y="212.00" text="ioc"/>
+<topic id="142" parent="141" guid="7HuSyerJ2kq7jCpn-pnGNg" x="-50.00" y="199.00" text="bean有接口使用jdk代理"/>
+<topic id="143" parent="141" x="-48.50" y="225.00" text="没有接口使用cglib代理"/>
+<topic id="144" parent="138" guid="m_AanNrbPEutgLKYVJT3oQ" x="107.00" y="254.00" text="aop"/>
+<topic id="145" parent="138" guid="sTfHPopBFEaUhHu8zuj9qg" x="104.00" y="419.00" text="事务"/>
+<topic id="146" parent="145" guid="LBkhxf6NkE2Kv5i7nxtz_g" x="3.50" y="364.00" text="传播性"/>
+<topic id="147" parent="146" guid="xilVvArucU-2nEZ2fKDcvA" x="-149.00" y="286.00" text="propagation_required"/>
+<topic id="148" parent="146" guid="bXenjqyP7keix7qEIJAjpg" x="-145.50" y="312.00" text="propagation_support"/>
+<topic id="149" parent="146" guid="zu7QSMwB6Ey4K5iUEHWe4Q" x="-146.00" y="338.00" text="propagation_mandry"/>
+<topic id="150" parent="146" guid="GagCtuSV4UmnWeNfqzMQEw" x="-166.00" y="364.00" text="propagation_ require_ new"/>
+<topic id="151" parent="146" guid="bczSYU-qeEKc98nfsnlA-Q" x="-168.00" y="390.00" text="propagation_ not _ supports"/>
+<topic id="152" parent="146" guid="BEvMNCIJS0urVzp3vXVIvg" x="-140.00" y="416.00" text="propagation_never"/>
+<topic id="153" parent="146" x="-143.00" y="442.00" text="propagation_nested"/>
+<topic id="154" parent="145" guid="o-S6tYDBIk6q673mydsIDw" x="-5.00" y="513.00" text="隔离级别"/>
+<topic id="155" parent="154" guid="zbMar3srMkSIIo9lV47_uw" x="-151.50" y="474.00" text="Read Uncommint"/>
+<topic id="156" parent="155" x="-281.00" y="474.00" text="脏读"/>
+<topic id="157" parent="154" guid="hwyHXzTWbkeu7mOPCTaLvw" x="-144.00" y="500.00" text="Read Commint"/>
+<topic id="158" parent="157" x="-274.50" y="500.00" text="重复读"/>
+<topic id="159" parent="154" guid="BxI_tcMZ3U-_P7fpsrKytw" x="-138.00" y="526.00" text="Read Repeat"/>
+<topic id="160" parent="159" x="-254.00" y="526.00" text="幻读"/>
+<topic id="161" parent="154" guid="druhcHGhd0eb2ByuWDyovA" x="-125.50" y="552.00" text="Serialize"/>
+<topic id="162" parent="161" x="-237.50" y="552.00" text="串行化"/>
+<topic id="163" parent="138" guid="7X6ku-HkwEutV8u6dmiU3w" x="96.50" y="584.00" text="security"/>
+<topic id="164" parent="0" guid="Coahay4-ikaYKyBxsg0bzw" x="371.00" y="648.00" text="tomcat"/>
+<topic id="165" parent="164" guid="glb8Z2dpUU6Ii9ULJ7IVvQ" x="250.50" y="648.00" text="server配置"/>
+<topic id="166" parent="165" guid="PhohY8VBH0anKoH80gqIYQ" x="123.50" y="648.00" text="Connector"/>
+<topic id="167" parent="166" guid="iKqpbadcW0eMmnd0vJjuAA" x="-1.00" y="635.00" text="协议实现"/>
+<topic id="168" parent="167" x="-140.00" y="622.00" text="HTTP/1.1 实现"/>
+<topic id="169" parent="167" guid="MYjhipereUaeTiM7VlsNrQ" x="-123.50" y="648.00" text="NIO 实现"/>
+<topic id="170" parent="169" x="-327.00" y="648.00" text="显著增加tomcat的并发处理能力"/>
+<topic id="171" parent="166" guid="HMj-iyH87EysjO93ReJCrg" x="-18.00" y="677.00" text="自定义线程池"/>
+<topic id="172" parent="0" guid="0qrT48KGy0GSyBcfvnqylQ" x="380.00" y="748.00" text="Log"/>
+<topic id="173" parent="172" guid="2qem3ruz1Ea4QZSEUJQCtQ" x="289.50" y="709.00" text="log4j"/>
+<topic id="174" parent="172" guid="bWCMrkETsUGrEBxSPZPh2Q" x="291.00" y="735.00" text="slf4j"/>
+<topic id="175" parent="174" x="194.00" y="735.00" text="logback"/>
+<topic id="176" parent="172" x="283.50" y="761.00" text="jdk-log"/>
+<topic id="177" parent="172" x="265.50" y="787.00" text="common-log"/>
+<topic id="178" parent="-1" guid="fjLp4QsyxU-fU1PoKvskjw" x="1456.49" y="-1171.18" layout="strict-horizontal" text="存储"/>
+<topic id="179" parent="178" guid="xW0gcaHZy0ecjQ9yOdASOQ" x="1558.99" y="-1200.18" text="oracle"/>
+<topic id="180" parent="178" guid="XfNZXXadrESBIlcM8Z8ekw" x="1558.49" y="-1171.18" text="mysql"/>
+<topic id="181" parent="180" guid="2KH1xeLMi02UxcJYeDQkNg" x="1656.49" y="-1171.18" text="索引"/>
+<topic id="182" parent="181" guid="kdppepTHYECFdZUb1tA8Rg" x="1765.49" y="-1171.18" text="联合索引"/>
+<topic id="183" parent="182" x="1891.49" y="-1171.18" text="前置索引"/>
+<topic id="184" parent="178" guid="jwBoW3eHuEG6S7OmqUVRoQ" x="1572.49" y="-1142.18" text="mongodb"/>
+<topic id="185" parent="178" guid="oQiCR1B6j0an57PeGONaRg" x="1360.49" y="-1185.68" text="缓存"/>
+<topic id="186" parent="185" guid="aZT_rIhaOkK9OvWf9LnMHw" x="1269.99" y="-1185.68" text="redis"/>
+<topic id="187" parent="186" guid="pi6L7XBzq06tiGeqFflQyw" x="1162.49" y="-1198.68" text="缓存击穿"/>
+<topic id="188" parent="186" guid="fBH5Wieijk2BRe1boi3T0g" x="1162.49" y="-1172.68" text="缓存雪崩"/>
+<topic id="189" parent="178" guid="jFuRz09aHEGN-N5ZdAzprw" x="1326.99" y="-1142.18" text="elasticsearch"/>
+<topic id="190" parent="-1" guid="Lt1eDEyVFUi3pGFP-vOcFQ" x="418.42" y="-1092.65" layout="strict-horizontal" text="项目管理"/>
+<topic id="191" parent="190" guid="-J55_i5Jy0ySHQTq2YWSug" x="543.92" y="-1137.65" text="maven"/>
+<topic id="192" parent="191" guid="1flZGDfWnkWk9yre4da0Xg" x="661.42" y="-1150.65" text="依赖管理"/>
+<topic id="193" parent="191" x="661.42" y="-1124.65" text="版本发布"/>
+<topic id="194" parent="190" guid="8VkfbeFsiEKoJdyw64MuxQ" x="552.42" y="-1063.65" text="版本控制"/>
+<topic id="195" parent="194" guid="wa3kjxX1uU-Go8FVKTrKTw" x="658.42" y="-1076.65" text="git"/>
+<topic id="196" parent="195" x="750.42" y="-1089.65" text="gitLab"/>
+<topic id="197" parent="195" x="794.92" y="-1063.65" text="分支与SVN的不同"/>
+<topic id="198" parent="194" x="658.42" y="-1034.65" text="svn"/>
+<topic id="199" parent="190" guid="e58EojLgaUKPGeYdFoaOuA" x="295.92" y="-1107.15" text="jekins"/>
+<topic id="200" parent="199" x="181.42" y="-1107.15" text="自动构建"/>
+<topic id="201" parent="190" x="296.42" y="-1078.15" text="sonar"/>
+</topics>
+<relations/>
+</mindmap>
+</simplemind-mindmaps>
